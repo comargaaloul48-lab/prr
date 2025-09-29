@@ -1,18 +1,1 @@
-@@ .. @@
-     notificationEmails: {
-       type: DataTypes.JSON,
-       defaultValue: []
-+    },
-+    smsNotification: {
-+      type: DataTypes.BOOLEAN,
-+      defaultValue: false
-+    },
-+    smsMessage: {
-+      type: DataTypes.STRING,
-+      allowNull: true,
-+      validate: {
-+        len: [1, 150]
-+      }
-     }
-   });
- };
+{"code":"rate-limited","message":"You have hit the rate limit. Please upgrade to keep chatting.","providerLimitHit":false,"isRetryable":true}

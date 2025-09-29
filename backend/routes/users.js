@@ -1,6 +1,1 @@
-@@ .. @@
-   body('username').isLength({ min: 3 }).trim().escape(),
--  body('email').isEmail().normalizeEmail()
-+  body('email').isEmail().normalizeEmail(),
-+  body('phoneNumber').optional().isMobilePhone()
- ], async (req, res) => {
+{"code":"rate-limited","message":"You have hit the rate limit. Please upgrade to keep chatting.","providerLimitHit":false,"isRetryable":true}
